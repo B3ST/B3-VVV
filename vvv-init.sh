@@ -95,8 +95,6 @@ echo " * Building the default theme"
 cd "wp-content/themes/${THEME}"
 sudo npm install -g gulp bower
 su vagrant -c "npm install"
-su vagrant -c "bower install"
-su vagrant -c "gulp rebuild"
 cd ../../..
 
 ## ACTIVATING COMPONENTS ##
