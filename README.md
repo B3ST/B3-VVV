@@ -5,8 +5,9 @@ A [Varying Vagrant Vagrants](https://github.com/Varying-Vagrant-Vagrants/VVV) se
 ## Installation
 
 1. Install VVV as described in the [VVV documentation](https://github.com/Varying-Vagrant-Vagrants/VVV).
-2. Clone this project into the `{vvv root dir}/www/b3.dev` directory.
-3. Reprovision VVV by running `vagrant provision` from the command line.
+2. Navigate to VVV's web root directory with `cd {your vvv dir}/www`.
+3. Clone the VVV project and B3 project submodules using `git clone --recursive git@github.com:B3ST/B3-VVV.git b3.dev`.
+4. Reprovision VVV by running `vagrant provision` from the command line.
 
 A new WordPress site will be created at [http://b3.dev:8888](http://b3.dev:8888) with the B3 starter theme, the WP-API plugin and the B3 API extensions.
 
