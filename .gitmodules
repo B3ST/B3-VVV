@@ -1,0 +1,9 @@
+[submodule "wp-content/themes/b3"]
+	path = wp-content/themes/b3
+	url = git@github.com:B3ST/B3.git
+[submodule "wp-content/plugins/b3-rest-api"]
+	path = wp-content/plugins/b3-rest-api
+	url = git@github.com:B3ST/B3-REST-API.git
+[submodule "wp-content/plugins/json-rest-api"]
+	path = wp-content/plugins/json-rest-api
+	url = git@github.com:B3ST/WP-API.git
