@@ -9,7 +9,7 @@ A [Varying Vagrant Vagrants](https://github.com/Varying-Vagrant-Vagrants/VVV) se
 3. Clone the VVV project and B3 project submodules using `git clone --recursive git@github.com:B3ST/B3-VVV.git b3.dev`.
 4. Reprovision VVV by running `vagrant provision` from the command line.
 
-A new WordPress site will be created at [http://b3.dev:8888](http://b3.dev:8888) with the B3 starter theme, the WP-API plugin and the B3 API extensions.
+A new WordPress site will be created at [http://b3.dev](http://b3.dev) with the B3 starter theme, the WP-API plugin and the B3 API extensions.
 
 Use the following username and password to access the dashboard:
 

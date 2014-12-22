@@ -3,7 +3,7 @@
 ## CONFIGURATION ##
 
 TITLE="B3 Development"
-URL="b3.dev:8888"
+URL="b3.dev"
 DATABASE="b3_dev"
 ADMIN_EMAIL="hello@beebeebee.be"
 THEME="b3"
