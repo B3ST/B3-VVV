@@ -93,7 +93,7 @@ git submodule update --init
 echo " * Building the default theme"
 
 cd "wp-content/themes/${THEME}"
-npm install -g gulp bower
+sudo npm install -g gulp bower
 su vagrant -c "npm install"
 su vagrant -c "bower install"
 cd ../../..
