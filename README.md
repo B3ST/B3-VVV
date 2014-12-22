@@ -13,8 +13,8 @@ A new WordPress site will be created at [http://b3.dev:8888](http://b3.dev:8888)
 
 Use the following username and password to access the dashboard:
 
-**Username:** `admin`
-**Password:** `password`
+* **Username:** `admin`
+* **Password:** `password`
 
 ## License
 

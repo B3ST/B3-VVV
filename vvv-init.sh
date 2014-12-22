@@ -50,7 +50,7 @@ PHP
 
     echo " * Configuring pretty permalinks"
 
-    wp option update permalink_structure "/%postname%/"
+    wp option update permalink_structure "/%year%/%monthnum%/%postname%"
 
     echo " * Importing test content"
 
@@ -96,6 +96,7 @@ cd "wp-content/themes/${THEME}"
 sudo npm install -g gulp bower
 su vagrant -c "npm install"
 su vagrant -c "bower install"
+su vagrant -c "gulp rebuild"
 cd ../../..
 
 ## ACTIVATING COMPONENTS ##
