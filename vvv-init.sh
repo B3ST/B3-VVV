@@ -52,14 +52,6 @@ PHP
 
     wp option update permalink_structure "/%year%/%monthnum%/%postname%"
 
-    echo " * Importing test content"
-
-    curl -OLs https://raw.githubusercontent.com/manovotny/wptest/master/wptest.xml
-    wp plugin install wordpress-importer
-    wp plugin activate wordpress-importer
-    wp import wptest.xml --authors=create
-    rm wptest.xml
-
     echo " * Installing and activating development plugins"
 
     wp plugin install developer
@@ -77,6 +69,14 @@ PHP
     cp wp-content/plugins/wp-redis/object-cache.php wp-content/object-cache.php
 
     touch wp-content/advanced-cache.php
+
+    echo " * Importing test content"
+
+    curl -OLs https://raw.githubusercontent.com/manovotny/wptest/master/wptest.xml
+    wp plugin install wordpress-importer
+    wp plugin activate wordpress-importer
+    wp import wptest.xml --authors=create
+    rm wptest.xml
 fi
 
 ## UPDATING COMPONENTS ##
