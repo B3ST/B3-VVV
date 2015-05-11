@@ -8,7 +8,7 @@ DATABASE="b3_dev"
 ADMIN_EMAIL="hello@beebeebee.be"
 THEME="b3"
 
-PLUGINS=(json-rest-api b3-rest-api)
+PLUGINS=(json-rest-api b3-rest-api wp-hydra)
 
 ## PROVISIONING ##
 
